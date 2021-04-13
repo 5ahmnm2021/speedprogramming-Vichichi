@@ -284,7 +284,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 771842815}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Szene2, Assembly-CSharp
         m_MethodName: False
         m_Mode: 1
@@ -501,7 +501,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 771842816}
-  - component: {fileID: 771842815}
   - component: {fileID: 771842814}
   m_Layer: 0
   m_Name: Switch
@@ -522,19 +521,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0579a2456042ccd4087d254339b3611e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &771842815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771842813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9633c606c2d00f4dbb09cfc3653f42a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  falseImage: {fileID: 1499712395}
 --- !u!4 &771842816
 Transform:
   m_ObjectHideFlags: 0
@@ -1262,7 +1248,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 771842815}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Szene2, Assembly-CSharp
         m_MethodName: False
         m_Mode: 1

@@ -2,12 +2,17 @@
 
 public class SceneSwitch : MonoBehaviour
 {
-    public void Szene1()
-    { Application.LoadLevel(0); }
+    public static int counter;
 
     public void Szene2()
-    { Application.LoadLevel(1); }
+    { 
+        Application.LoadLevel(1);
+        counter++;
+    }
 
     public void Szene3()
-    { Application.LoadLevel(2); }
+    { 
+        Application.LoadLevel(2);
+        counter++;
+    }
 }

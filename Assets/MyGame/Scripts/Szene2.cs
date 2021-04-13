@@ -15,6 +15,6 @@ public class Szene2 : MonoBehaviour
     {
         falseImage.SetActive(true);
         yield return new WaitForSeconds(3);
-        Application.LoadLevel(1);
+        Application.LoadLevel(2);
     }
 }

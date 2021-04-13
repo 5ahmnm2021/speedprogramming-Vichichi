@@ -2,7 +2,7 @@
 
 public class SceneSwitch : MonoBehaviour
 {
-    public static int counter;
+    public int counter;
 
     public void Szene2()
     { 

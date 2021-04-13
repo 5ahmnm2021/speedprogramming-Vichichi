@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class Szene1 : MonoBehaviour
+public class Szene2 : MonoBehaviour
 {
     public GameObject falseImage;
 
